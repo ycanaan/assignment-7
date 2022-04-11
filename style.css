@@ -1,0 +1,55 @@
+.website{
+  background-color: #f4f4f3
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f4f4f3;
+  overflow: hidden;
+  padding: 30px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: optima;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    text-decoration: underline;
+}
+
+.static {
+    background-color: #f4f4f3;
+}
+
+#name {
+    float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.ybox {
+  background-color: #ffd53d;
+  padding: 80px;
+  font-size: 70px;
+    text-align: left;
+  font-family: optima;
+  margin: 20px;
+
+}
