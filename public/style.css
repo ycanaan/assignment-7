@@ -9,6 +9,9 @@
   padding: 30px;
 }
 
+.hidden{
+  visibility: hidden;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -52,4 +55,46 @@
   font-family: optima;
   margin: 20px;
 
+}
+
+.text-box{
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    animation: mover 4s linear infinite;
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+}
+@keyframes mover
+{
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+
+.left{
+  text-align: center;
+}
+
+.smalltext{
+  text-align: left;
+  padding: 55px;
 }
