@@ -1,5 +1,5 @@
 Github:https://github.com/ycanaan/assignment-7
-Website:
+Website: https://assignment8-665cc.web.app
 Prototype: https://www.yaelc.com/
 Website Description
     My goal was to make a playful and fun version of my portfolio. The purpose here is to showcase my projects while also maintaining a light tone. In order to achieve this, I stuck with showing off only my sillier projects. Each project contains an image of the project and a brief description of what it entails. The name of the project can also be seen bouncing up and down. The projects live together in a brief gallery on the home page, and there is also an about page with some information about me.
